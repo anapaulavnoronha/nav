@@ -1,0 +1,21 @@
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+}
+
+.nav-logo { margin-left: 10px; }
+
+.nav-logo > .logo-link { padding: 20px; }
+
+.nav-links {
+  display: flex;
+  margin-right: 10px;
+}
+
+.nav-links > li > a { padding: 20px; }
