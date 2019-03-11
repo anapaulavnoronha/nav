@@ -1,34 +1,21 @@
-li {
-  list-style: none;
-}
+li { list-style: none; }
 
-a {
-  text-decoration: none;
-}
+a { text-decoration: none; }
 
-nav {
+.nav-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: pink;
 }
 
-h1 > a {
-  padding: 20px;
-}
+.nav-logo { margin-left: 10px; }
 
-ul {
+.nav-logo > .logo-link { padding: 20px; }
+
+.nav-links {
   display: flex;
-}
-
-ul > li > a {
-  padding: 20px;
-}
-
-h1 {
-  margin-left: 10px;
-}
-
-ul {
   margin-right: 10px;
 }
+
+.nav-links > li > a { padding: 20px; }
