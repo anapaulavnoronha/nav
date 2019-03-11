@@ -10,14 +10,17 @@
   font-size: 18px;
 }
 
-.navbar > .logo {
+.logo {
   display: inline-block;
   font-size: 22px;
   margin-top: 10px;
   margin-left: 20px;
 }
 
-.navbar > .main-nav { list-style-type: none; }
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
 
 .main-nav li {
   text-align: center;
@@ -33,3 +36,5 @@
   cursor: pointer;
   font-size: 24px;
 }
+
+.active { display: block; }
